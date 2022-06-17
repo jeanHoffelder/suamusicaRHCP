@@ -11,9 +11,13 @@ html,body{
 }
 
 body{
-    background-color: lightcoral;
     display: grid;
     place-items: center;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
 }
 
 .container{
@@ -40,4 +44,9 @@ body{
     font-size: small;
     justify-content: center;
     text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
