@@ -19,6 +19,10 @@ body{
     background-color: white;
     color: black;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 .container{
     background-color: rgb(255, 164, 164);
@@ -46,7 +50,4 @@ body{
     text-align: center;
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
-}
+
