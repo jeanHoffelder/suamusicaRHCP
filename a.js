@@ -1,16 +1,19 @@
-import './biblioteca';
-document.addEventListener("DOMContentLoaded", function(event) {
+const TRHCP = [
+  "True Men Don't Kill Coyotes",
+  "Baby Appeal",
+  "Buckle Down",
+  "Get Up And Jump",
+  "Why Don't You Love Me",
+  "Green Heaven",
+  "Mommy Where's Daddy",
+  "Out In L.A.",
+  "Police Helicopter",
+  "You Always Sing The Same",
+  "Grand Pappy Du Plenty",
+]
+const chk = document.getElementById('chk')
 
-
-function darkMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "dark-mode";
-  }
-  function lightMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModetext");
-    element.className = "light-mode";
-  }
-
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('dark')
+  
 })
