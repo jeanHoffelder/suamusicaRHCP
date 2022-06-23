@@ -427,9 +427,6 @@ btn.addEventListener("click", function () {
     const select = document.getElementById('mes').value;
     var numusica = select * numdia
     result.innerHTML = (TRHCP[numusica]);
-
-
-
   }
 
 })
