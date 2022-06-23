@@ -25,7 +25,7 @@ footer{
     bottom: 1%;
     left: 0;
     height: 40px;
-    position: fixed;
+    position: absolute;
     width: 90%;
     display: block;
     top: 95%;
@@ -35,7 +35,7 @@ img{
     max-width: 222px;
     max-height: 116px;
     object-fit: fill;
-    position: fixed;
+    position: absolute;
     align-items: stretch;
     top: 65px;
     transform: rotate(14deg);
@@ -61,7 +61,7 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     margin: 5px;
     top: 200px;
 }
