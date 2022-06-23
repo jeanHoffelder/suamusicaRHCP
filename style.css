@@ -35,6 +35,7 @@ img{
     position: absolute;
     align-items: stretch;
     top: 60px;
+    transform: rotate(14deg);
 }
 
 body{
