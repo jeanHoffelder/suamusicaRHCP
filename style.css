@@ -11,12 +11,37 @@ html,body{
     margin: 0;
 }
 
+header{
+    position: fixed;
+    font-size: 50px;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+footer{
+    font-size: 22px;
+    bottom: 7px;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+
+}
+
+img{
+    max-width: 222px;
+    max-height: 116px;
+    object-fit: fill;
+    position: absolute;
+    align-items: stretch;
+    top: 60px;
+}
+
 body{
     background-color: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100vh;
     margin: 0;
     transition: background 0.2s linear;
@@ -44,7 +69,13 @@ body{
     padding: 20px 25px;
 }
 
+.revela{
+    width: 90px;
+    height: 30px;
+}
 
+
+/*modo*/
 body.dark {
     background: #292c35;
     color: #fafafa;
