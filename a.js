@@ -410,30 +410,28 @@ mode.addEventListener('change', () => {
 })
 
 
-const btn = document.querySelector('#revela')
+var btn = document.querySelector('#revela')
 
 const nao = ("O NÚMERO DO DIA DEVE ESTAR ENTRE 1 E 31")
 
-var result = document.getElementById("musica");
+var result = document.querySelector('#musica');
 
 
 btn.addEventListener("click", function () {
-  const dia = document.querySelector('#dia');
-  const numdia = dia.value;
+  var dia = document.querySelector('#dia');
+  var numdia = dia.value;
 
   if (numdia > 31 || numdia < 1) {
     result.innerHTML = (nao);
   } else {
-    const select = document.getElementById('mes').value;
+    var select = document.getElementById('mes').value;
     var numusica = select * numdia
     result.innerHTML = (TRHCP[numusica]);
-    let text = 'LINK DIRECIONANDO PARA MUSICA NO GOOGLE!';
-        var musoutspc = TRHCP[numusica].replace(/\s+/g, '');
-    let link = 'https://www.google.com/search?q='+musoutspc+'rhcp'
-    result = '<a href='+link+'> '+ text + '</a>';
-    document.getElementById("link").innerHTML = result;
-
-
+    var text = 'LINK DA MUSICA NO GOOGLE!';
+      var musoutspc = TRHCP[numusica].replace(/\s+/g, '');
+    var link = 'https://www.google.com/search?q='+musoutspc+'rhcp'
+    resulta = '<a target="_blank" href='+link+'>'+ text + '</a>';
+    document.getElementById("link").innerHTML = resulta;
   }
 
 })

@@ -56,9 +56,15 @@ img{
     text-align: center;
 }
 
+a:link, a:visited {
+	text-decoration: none;
+    color: #f39c12;
+    font-size: 25px;
+	}
+a:hover {
+	text-decoration: underline;
+	color: darkred
 
-a:link, a:hover{
-    text-decoration: none;
 }
 .revela{
     width: 90px;
