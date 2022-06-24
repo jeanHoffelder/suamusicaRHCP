@@ -55,6 +55,11 @@ img{
     padding: 20px 25px;
     text-align: center;
 }
+
+
+a:link, a:hover{
+    text-decoration: none;
+}
 .revela{
     width: 90px;
     height: 30px;

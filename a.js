@@ -427,6 +427,13 @@ btn.addEventListener("click", function () {
     const select = document.getElementById('mes').value;
     var numusica = select * numdia
     result.innerHTML = (TRHCP[numusica]);
+    let text = 'LINK DIRECIONANDO PARA MUSICA NO GOOGLE!';
+        var musoutspc = TRHCP[numusica].replace(/\s+/g, '');
+    let link = 'https://www.google.com/search?q='+musoutspc+'rhcp'
+    result = '<a href='+link+'> '+ text + '</a>';
+    document.getElementById("link").innerHTML = result;
+
+
   }
 
 })
