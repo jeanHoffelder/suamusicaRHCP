@@ -428,7 +428,7 @@ btn.addEventListener("click", function () {
     var numusica = select * numdia
     result.innerHTML = (TRHCP[numusica]);
     var text = 'LINK DA MUSICA NO GOOGLE!';
-      var musoutspc = TRHCP[numusica].replace(/\s+/g, '');
+      var musoutspc = TRHCP[numusica].replace(/\s+/g, '+');
     var link = 'https://www.google.com/search?q='+musoutspc+'+rhcp'
     resulta = '<a target="_blank" href='+link+'>'+ text + '</a>';
     document.getElementById("link").innerHTML = resulta;
