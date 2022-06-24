@@ -1,3 +1,7 @@
+@font-face {
+    src: url(Franklin\ Gothic\ Bold.ttf);
+    font-family: 'Raleway-Regular';    
+    font-weight: normal;}
 *{
     margin: 0px;
     padding: 0px;
@@ -17,6 +21,7 @@ body{
     align-items: center;
     justify-content: space-between;
     transition: background 0.2s linear;
+    font-family: 'Franklin Gothic Medium', 'Arial';
 }
 
 header{
