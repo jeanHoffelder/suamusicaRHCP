@@ -32,7 +32,6 @@ img{
     max-height: 116px;
     object-fit: fill;
     top: 65px;
-    transform: rotate(15deg);
     margin: 5px;
 }
 .container{
